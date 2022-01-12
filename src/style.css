@@ -1,0 +1,54 @@
+body {
+  font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.searchbar {
+  border-radius: 30px;
+  text-align: center;
+}
+
+.cityinput,
+#temp {
+  padding: 10px 0px 0px;
+}
+
+.cityinput {
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+#temp {
+  font-size: 40px;
+}
+#degC {
+  cursor: pointer;
+}
+#degC:hover {
+  border-style: double;
+  color: violet;
+}
+
+#degF {
+  cursor: pointer;
+}
+
+#degF:hover {
+  border-style: double;
+  color: violet;
+}
+.dayofweek {
+  font-weight: bolder;
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: 40px;
+}
